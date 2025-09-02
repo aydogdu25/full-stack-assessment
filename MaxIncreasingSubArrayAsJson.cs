@@ -2,7 +2,7 @@ using System.Linq;
 using System.Text.Json; 
 using System.Collections.Generic; 
 
-public static string MaxIncreasingSubarrayAsJson(List<int> numbers)
+public static string MaxIncreasingSubArrayAsJson(List<int> numbers)
 {
     if (numbers == null || numbers.Count == 0)
         return JsonSerializer.Serialize(new List<int>());
